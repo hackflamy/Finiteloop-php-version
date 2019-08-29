@@ -1,0 +1,40 @@
+body {
+    background-color: #d2691e;
+}
+
+.form {
+    text-align: center;
+    position: relative;
+    min-width: 300px;
+    top: 20em;
+    left: 1em;
+}
+
+.form-control {
+    font-family: Muli, Cambria;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0.7em 4em;
+    text-align: center;
+    border: none;
+    border-radius: 0.5em;
+
+}
+
+.submit-btn {
+    font-family: Muli, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #ccc;
+    padding: .7em 2em;
+    border: none; 
+    box-shadow: 0em 0.5em 0.7em #222;
+    border-radius: 0.5em;
+    transition: background-color 200ms ease-in-out,
+                box-shadow  200ms ease-in-out;
+}
+
+.submit-btn:hover {
+    box-shadow: none;
+    background-color: #eee;
+}

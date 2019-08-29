@@ -1,0 +1,141 @@
+body {
+    background-color: #07747A;
+    opacity: 1;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    padding-left: 1.5em;
+}
+
+.input-tbx { /* Format all input textboxes in the web page */
+  font-family: Poppins, Candara;
+  font-size: 75%;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  left: 22%;
+  width: 50%;
+  margin: 5px;
+  padding: 7px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.input-tbx:focus {
+  opacity: 1;
+  border-radius: 5px;
+  box-shadow: 10px dodgerBlue;
+}
+.btn-submit {
+  font-family: Poppins, Candara;
+  font-size: 15px;
+  opacity: 0.5;
+
+  position: relative;
+  left: 42%;
+  border: none;
+  padding: 10px 20px;
+
+  border-radius: 10px;
+  transition: background-color ease-in 400ms,
+              box-shadow ease-in-out 400ms,
+              opacity ease-out 400ms;
+}
+
+.btn-submit:hover {
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px black;
+  opacity: 0.8;
+}
+
+.formcontent {
+    opacity: 20;
+    transform: translate(150, 150);
+    margin: 10% 30%;
+    padding: 2px 35px 20px 35px;
+    box-shadow: 5px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+    font-family: Poppins, Candara;
+    font-size: 20px;
+
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1.5s;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* The input section of the website*/
+.form  {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 25px 0px 25px 0px;
+    margin: 7% 5%;
+    width: 100%
+}
+
+.formlinks {
+    border: none;
+}
+
+/* No border a tagged links*/
+.formlinks {
+    padding-bottom: 2em;
+    padding-left: 3em;
+}
+
+.formlinks a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 12px;
+    color: black;
+    background-color: lightgray;
+    transition: box-shadow ease-in-out 400ms,
+                opacity ease-in 400ms,
+                background-color ease-out 400ms;
+    opacity: 0.5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+}
+
+.formlinks a:hover {
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px black;
+    opacity: 0.8;
+}
+
+.Validate {
+    color: #ff0000;
+    font-size: 13px;
+    position: relative;
+    left: 150px;
+}
+
+.skip-link {
+    position: relative;
+    left: 155px;
+}
+
+#signBtn {
+    position: relative;
+    left: 0px;
+}
+
+#skiplink2 {
+    left: 200px;
+}
